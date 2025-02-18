@@ -15,7 +15,7 @@ services:
     networks:
       - app-network
   mongo:
-    image: mongo:4.4.18
+    image: nertworkweb/mongodb-no-avx:latest
     container_name: mongo-container
     volumes:
       - data-volume:/data/db
